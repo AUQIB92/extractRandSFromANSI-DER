@@ -62,7 +62,7 @@ function   extract2R(signature)  {
     return hexBytes.join("");
   }
 
-  const res =async()=>{  let  signature=prompt("Enter ASN.1 DER Encoded Signature")
+  const res =async()=>{  let  signature=prompt("Enter ASN.1 DER Encoded Signature ")
 let [r,s]= await  decode(signature)
 console.log("R =%s S=%s",r,s)
 }
