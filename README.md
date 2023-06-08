@@ -1,2 +1,2 @@
 # extractRandSFromANSI-DER
-# This utility allows one to extraxt R and S parts of the ECDSA Digital Signatures from ANS1 DER Format
+### This JS utility allows one to extract R and S part of the ECDSA Digital Signatures from ANS1 DER Format Signature
